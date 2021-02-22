@@ -14,17 +14,14 @@ class Projects extends Component {
            return(
                <div>
                    <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
-                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                     <CardTitle style={{color: 'white', height: '176px', background: `url('/assets/images/plantApp.png') center / cover`}}>Get In My Plants</CardTitle>
                      <CardText>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris sagittis pellentesque lacus eleifend lacinia...
+                      This is a plant information app that allows you to search any plant, and it will return its scientific name, common name, and a photo. It uses the Spotify API to return a plant-friendly song.
                      </CardText>
                      <CardActions border>
-                        <Button colored>Get Started</Button>
+                        <Button colored href="https://github.com/LHafoka13/Project-1" target="_blank">GitHub Repo</Button>
+                        <Button colored href="https://lhafoka13.github.io/Project-1/" target="_blank">App Demo</Button>
                      </CardActions>
-                     <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                     </CardMenu>
                     </Card>
                </div>
            )
