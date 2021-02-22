@@ -13,7 +13,7 @@ class Home extends Component {
                 <div className="bannerText">
                   <h1>Full-Stack Web Developer</h1>
                   <hr />
-                  <p>HTML/CSS | JavaScript | React | NodeJS | Express | MongoDB</p>
+                  <p>HTML/CSS | JavaScript | React | NodeJS | Express | MySQL | MongoDB</p>
                   <div className="socialLinks">
                      {/* LinkedIn */}
                     <a href="https://www.linkedin.com/in/lilyokalani-hafoka/" rel="noopener noreferrer"target="_blank">
