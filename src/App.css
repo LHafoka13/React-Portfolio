@@ -1,4 +1,247 @@
-.headerColor {
+ /* home page styling */
+.landingGrid {
+background: #3494E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.avatarImage {
+  height: 180px;
+}
+
+.bannerText {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.bannerText h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.bannerText hr {
+  border-top: 5px dotted white;
+  width: 50px;
+  margin: auto;
+}
+
+.bannerText p {
+  color: white;
+  font-size: 18px;
+  padding: 1em;
+}
+
+.socialLinks  {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.socialLinks i {
+  color: white;
+  font-size: 3em;
+  padding: 8px;
+}
+
+.projectGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactBody {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.contactGrid {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contactGrid h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+}
+
+.contactGrid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.contactGrid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contactList i {
+ display: none;
+}
+
+#secondLine {
+  display: none;
+}
+
+#secondLineBreak {
+  display: none;
+}
+
+.contactList a {
+  padding: 5px;
+  background-color: #AD7BC1;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+}
+
+
+/* styling for tablet view */
+@media only screen and (min-width: 768px) {
+
+  /* home page styling */
+
+.landingGrid {
+background: #3494E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.avatarImage {
+  height: 450px;
+}
+
+.bannerText {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.bannerText h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.bannerText hr {
+  border-top: 5px dotted white;
+  width: 50px;
+  margin: auto;
+}
+
+.bannerText p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.socialLinks  {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.socialLinks i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projectGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactBody {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contactGrid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contactGrid h2 {
+  font-family: 'Anton', sans-serif;
+}
+.contactGrid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.contactGrid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+#secondLine {
+  display: none;
+}
+
+#secondLineBreak {
+  display: none;
+}
+
+.contactList i {
+  display: initial;
+  font-size: 50px;
+  padding-right: 2rem;
+}
+
+.contactList a {
+  padding: 5px;
+  background-color: #AD7BC1;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+}
+
+}
+
+@media only screen and (min-width: 1000px) {
+  .headerColor {
 background: #3494E6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -98,9 +341,19 @@ height: 100%;
   margin: auto;
 }
 
+#secondLine {
+  display: initial;
+}
+
+#secondLineBreak {
+  display: initial;
+}
+
 .contactList i {
-  font-size: 66px;
+  display: initial;
+  font-size: 60px;
   padding-right: 5rem;
+  padding-left: 5rem;
 }
 .contactList a {
   padding: 20px;
@@ -108,4 +361,5 @@ height: 100%;
   color: black;
   font-family: 'Oxygen', sans-serif;
   font-size: 25px;
+}
 }

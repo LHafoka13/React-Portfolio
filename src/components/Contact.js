@@ -19,11 +19,12 @@ class Contact extends Component {
                 <Cell col={6}>
                     <h2>Contact Me</h2>
                     <hr />
-                    <div className="contactList">
-                      <List>
+                <div className="contactList">
+                    <List>
                         <ListItem>
                           <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                              <i class="fas fa-phone-square"></i>  (720)-629-3364 
+                              <i class="fas fa-phone-square"></i>  
+                              (720)-629-3364 
                           </ListItemContent>
                         </ListItem>
                         <ListItem>
@@ -32,11 +33,12 @@ class Contact extends Component {
                           </ListItemContent>
                         </ListItem>
                     </List>
-                    <hr />
-                    <br></br><br></br><br></br>
-                    <a href="/assets/docs/HafokaL_Resume2020.pdf" target="_blank">View Resume</a>
-                    </div>
-                    
+                    <hr id="secondLine"/>
+                    <div id="secondLineBreak">
+                        <br></br><br></br><br></br>
+                </div>
+                  <a href="/assets/docs/HafokaL_Resume2020.pdf" target="_blank">View Resume</a>
+                </div>
                 </Cell>
             </Grid>
         </div>

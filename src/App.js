@@ -14,7 +14,7 @@ function App() {
                 <a href="/contact">Contact</a>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Menu">
             <Navigation>
                 <a href="/">Home</a>
                 <a href="/projects">Projects</a>

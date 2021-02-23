@@ -23,7 +23,7 @@ class Projects extends Component {
                         <Button colored href="https://lhafoka13.github.io/Project-1/" target="_blank">App Demo</Button>
                      </CardActions>
                     </Card>
-                    <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
+                    <Card id="test" shadow={0} style={{width: '512px', margin: 'auto'}}>
                      <CardTitle style={{color: 'black', height: '176px', background: 'url(https://user-images.githubusercontent.com/68487859/98502455-49074880-220f-11eb-8d44-4c8b3223f717.png) center / cover'}}>Weather Dashboard</CardTitle>
                      <CardText>
                       This is a weather information app that allows you to search any US city, and it will return the current weather including icons, temperature, humidity, and UV index. It also gives you a five day forecast and stores your recent searches. The recent searches can be clicked to display the weather for that city again. 
