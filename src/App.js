@@ -1,5 +1,5 @@
 import './App.css';
-import {Layout, Header, Navigation, Content, Drawer} from 'react-mdl';
+import {Layout, Header, Navigation, Content, Drawer, Footer, FooterSection, FooterLinkList} from 'react-mdl';
 import Main from "./components/main"
 
 
@@ -24,8 +24,17 @@ function App() {
         <Content>
             <Main />
         </Content>
+        <Footer size="mini">
+          <FooterSection>
+            <FooterLinkList>
+              <a href="#">Help</a>
+              <a href="#">Privacy & Terms</a>
+           </FooterLinkList>
+          </FooterSection>
+        </Footer>
     </Layout>
 </div>
+
 
   );
 }

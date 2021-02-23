@@ -33,6 +33,16 @@ class Projects extends Component {
                         <Button colored href="https://lhafoka13.github.io/Weather-Dashboard/" target="_blank">App Demo</Button>
                      </CardActions>
                     </Card>
+                    <Card id="test" shadow={0} style={{width: '512px', margin: 'auto'}}>
+                     <CardTitle style={{color: 'black', height: '176px', background: 'url(https://user-images.githubusercontent.com/68487859/96199627-2ede9100-0f15-11eb-9aba-015c8838725a.png) center / cover'}}>Password Generator</CardTitle>
+                     <CardText>
+                      This is a password generator that takes in user preferences such as password length and desired characters and returns a randomly generated password that meets the desired components. 
+                     </CardText>
+                     <CardActions border>
+                        <Button colored href="https://github.com/LHafoka13/Password-Generator" target="_blank">GitHub Repo</Button>
+                        <Button colored href="https://lhafoka13.github.io/Password-Generator/" target="_blank">App Demo</Button>
+                     </CardActions>
+                    </Card>
                </div>
            )
        } else if (this.state.activeTab === 1) {
@@ -66,6 +76,23 @@ class Projects extends Component {
                </div>
            )
        }
+
+       else if (this.state.activeTab === 3) {
+           return(
+                <div className="projectGrid">
+                    <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
+                     <CardTitle style={{color: 'black', height: '176px', background: 'url(https://user-images.githubusercontent.com/68487859/108803387-c99c4b80-7557-11eb-8f73-0b73535734e5.png) center / cover'}}>React Counter</CardTitle>
+                     <CardText>
+                      This is a simple counter app built with React. It allows you to separately increment numeric values for a specific counter. You can also delete counters and reset the counters which change the counters back to their initial state. The Navigation bar at the top also keeps track of the number of counters with values above 0.
+                     </CardText>
+                     <CardActions border>
+                        <Button colored href="https://github.com/LHafoka13/React-Counter" target="_blank">GitHub Repo</Button>
+                        <Button colored href="https://lhafoka13.github.io/React-Counter/" target="_blank">App Demo</Button>
+                     </CardActions>
+                    </Card>
+               </div>
+           )
+       }
    }
     render() {
     return(
@@ -74,6 +101,7 @@ class Projects extends Component {
                 <Tab>GitPages</Tab>
                 <Tab>mySQL</Tab>
                 <Tab>MongoDB</Tab>
+                <Tab>React</Tab>
             </Tabs>
            
               <Grid>
