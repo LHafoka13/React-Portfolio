@@ -10,7 +10,6 @@ function App() {
         <Header title="My Portfolio" scroll className="headerColor">
             <Navigation>
                 <a href="/">Home</a>
-                <a href="/about">About Me</a>
                 <a href="/projects">Projects</a>
                 <a href="/contact">Contact</a>
             </Navigation>
@@ -18,7 +17,6 @@ function App() {
         <Drawer title="Title">
             <Navigation>
                 <a href="/">Home</a>
-                <a href="/about">About Me</a>
                 <a href="/projects">Projects</a>
                 <a href="/contact">Contact</a>
             </Navigation>
