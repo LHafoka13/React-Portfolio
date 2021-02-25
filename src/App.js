@@ -6,36 +6,31 @@ import Main from "./components/main"
 function App() {
   return (
     <div className="demo-big-content">
-    <Layout>
+      <Layout>
         <Header title="My Portfolio" scroll className="headerColor">
-            <Navigation>
-                <a href="/">Home</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact</a>
-            </Navigation>
+          <Navigation>
+            <a href="/">Home</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
+          </Navigation>
         </Header>
         <Drawer title="Menu">
-            <Navigation>
-                <a href="/">Home</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact</a>
-            </Navigation>
+          <Navigation>
+            <a href="/">Home</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
+          </Navigation>
         </Drawer>
         <Content>
-            <Main />
+          <Main />
         </Content>
-        <Footer size="mini">
+        <Footer>
           <FooterSection>
-            <FooterLinkList>
-              <a href="#">Help</a>
-              <a href="#">Privacy & Terms</a>
-           </FooterLinkList>
+            <a>© Lily'okalani Hafoka</a>
           </FooterSection>
         </Footer>
-    </Layout>
-</div>
-
-
+      </Layout>
+    </div>
   );
 }
 
