@@ -16,8 +16,8 @@ class Projects extends Component {
              <div className="projectGrid">
                <ProjectCard
                  title="Get In My Plants"
-                 image="/assets/images/plantApp.png"
-                 color="white"
+                 image="https://lhafoka13.github.io/Responsive-Portfolio/Main/assets/imgs/plants.png"
+                 color="black"
                  description="This is a plant information app that allows you to search any plant, and it will return its scientific name, common name, and a photo. It uses the Spotify API to return a plant-friendly song."
                  repo="https://github.com/LHafoka13/Project-1"
                  demo="https://lhafoka13.github.io/Project-1/"

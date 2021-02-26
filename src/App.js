@@ -1,5 +1,6 @@
 import './App.css';
-import {Layout, Header, Navigation, Content, Drawer, Footer, FooterSection, FooterLinkList} from 'react-mdl';
+import {Layout, Header, Navigation, Content, Drawer, Footer, FooterSection} from 'react-mdl';
+import {Link} from 'react-router-dom';
 import Main from "./components/main"
 
 
@@ -9,16 +10,28 @@ function App() {
       <Layout>
         <Header title="My Portfolio" scroll className="headerColor">
           <Navigation>
-            <a href="/">Home</a>
-            <a href="/projects">Projects</a>
-            <a href="/contact">Contact</a>
+            <p>
+              <Link to="/">Home</Link>
+            </p>
+            <p>
+              <Link to="/projects">Projects</Link>
+            </p>
+            <p>
+              <Link to="/contact">Contact</Link>
+            </p>
           </Navigation>
         </Header>
         <Drawer title="Menu">
           <Navigation>
-            <a href="/">Home</a>
-            <a href="/projects">Projects</a>
-            <a href="/contact">Contact</a>
+            <p>
+              <Link to="/">Home</Link>
+            </p>
+            <p>
+              <Link to="/projects">Projects</Link>
+            </p>
+            <p>
+              <Link to="/contact">Contact</Link>
+            </p>
           </Navigation>
         </Drawer>
         <Content>
@@ -26,7 +39,7 @@ function App() {
         </Content>
         <Footer>
           <FooterSection>
-            <a>© Lily'okalani Hafoka</a>
+            <p>© Lily'okalani Hafoka</p>
           </FooterSection>
         </Footer>
       </Layout>
